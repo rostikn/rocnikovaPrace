@@ -1,0 +1,56 @@
+* {
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+   background-image: url('/res/img/prvniobraznew1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+div {
+   display: flex;
+   justify-content: center;
+   font-size: 35px;
+   margin: 50px;
+
+}
+
+.btn-1 {
+   height: 50px;
+   width: 100px;
+   margin-top: 700px;
+
+}
+
+
+.btn {
+   margin: 5px;
+   margin-top: 200px;
+   height: 100px;
+   width: 200px;
+   background-color: hsl(195, 2%, 58%);
+   border: 1px solid hsl(240, 1%, 39%);
+   border-radius: 5px;
+   color: white;
+   outline: none;
+   margin-bottom: 50px;
+   cursor: pointer;
+}
+
+.container {
+   background-color: rgb(245, 236, 236);
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px 2px;
+   justify-content: center;
+
+}
+
+h1 {
+   font-size: 40px;
+   display: flex;
+   justify-content: center;
+}
